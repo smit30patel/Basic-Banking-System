@@ -1,0 +1,117 @@
+.container-footer {
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+  }
+.carousel-item {
+    max-width: 100%;
+    max-height: 100%;
+    /* align-self: center; */
+}
+.carousel-inner {
+    width: 1400px;
+    margin: auto;
+}
+/* .carousel-caption {} */
+.card-outer {
+    display: flex;
+    
+}
+.card {
+    margin-left: 77px;
+}
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+.container-text {
+    text-align: center;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px;
+    /* padding-top: 5px; */
+}
+.welcome-text {
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+#img3 {
+    height: 191px;
+}
+.boo-logo {
+    width: 40px;
+}
+
+.container-crete-user-form {
+    border-radius: 9px;
+    width: 1000px;
+    margin: auto;
+    padding: 45px;
+    background-color: aquamarine;
+}
+.haed-create-user {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+.head-delete-user {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+#btn-create {
+    margin-left: 390px;
+    margin-top: 23px;
+    margin-bottom: -23px;
+}
+.branches-ul ul  {
+    list-style: none;
+}
+.delete-user-form {
+    margin: auto;
+    border-radius: 9px;
+    background-color: aquamarine;
+    width: 1000px;
+    padding: 45px;
+}
+.container-trans {
+    margin: auto;
+    border-radius: 9px;
+    background-color: aquamarine;
+    width: 700px;
+    padding: 45px;
+}
+.head-sender {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.amount-head {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.head-receiver {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#btn-proceed {
+    margin-left: 236px;
+    margin-top: 29px;
+    margin-bottom: -29px;
+}
